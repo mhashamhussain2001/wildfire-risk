@@ -1,0 +1,15 @@
+# Raw and cleaned data are large and reproducible from src/ scripts, so git skips them.
+# The negations keep the .gitkeep placeholders and the SOURCES.md provenance log tracked.
+data/raw/*
+!data/raw/.gitkeep
+!data/raw/SOURCES.md
+data/clean/*
+!data/clean/.gitkeep
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+# Handoff notes hold copyrighted paper PDFs and private emails. Keep them out of the public repo.
+wildfire_handoff/
+wildfire_handoff.zip
+# Personal planning notes, email drafts and application text. Never commit.
+private/

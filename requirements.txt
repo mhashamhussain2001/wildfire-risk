@@ -1,0 +1,8 @@
+﻿pandas
+geopandas
+pyogrio
+shapely
+requests
+jupyter
+matplotlib
+statsmodels
